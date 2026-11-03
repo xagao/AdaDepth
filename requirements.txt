@@ -1,0 +1,11 @@
+# Inspected historical environment; install torch/torchvision for your platform.
+torch==1.13.0
+torchvision==0.14.0
+timm==0.4.12
+numpy==1.24.4
+scipy==1.9.1
+matplotlib
+Pillow
+scikit-image==0.22.0
+opencv-python==4.9.0.80
+yacs

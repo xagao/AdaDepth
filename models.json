@@ -1,0 +1,126 @@
+[
+  {
+    "name": "AdaDepth_LiteMono8M_Cityscapes",
+    "dataset": "cityscapes",
+    "backbone": "litemono",
+    "model": "lite-mono-8m",
+    "height": 192,
+    "width": 512,
+    "branch": "refined",
+    "asset": "AdaDepth_LiteMono8M_Cityscapes.zip",
+    "download_url": "https://github.com/xagao/AdaDepth/releases/download/v1.0.0/AdaDepth_LiteMono8M_Cityscapes.zip",
+    "metrics": {
+      "abs_rel": 0.085,
+      "sq_rel": 0.736,
+      "rmse": 5.213,
+      "rmse_log": 0.138,
+      "a1": 0.918,
+      "a2": 0.98,
+      "a3": 0.993
+    },
+    "metric_source": "archived evaluation log",
+    "files": {
+      "encoder_ref.pth": {
+        "bytes": 32674391,
+        "sha256": "e6136b7fe1530c1d0d7eec5d676163da342d43af3e5ec2c4585e26affeeb7888"
+      },
+      "depth_ref.pth": {
+        "bytes": 2542875,
+        "sha256": "cbaa046603bd0fe9a2ef0b0f1ad00768ecccc9fb47be8611b6d95f8bd8c0ea4e"
+      }
+    }
+  },
+  {
+    "name": "AdaDepth_DiffNet_Cityscapes",
+    "dataset": "cityscapes",
+    "backbone": "diffnet",
+    "model": null,
+    "height": 192,
+    "width": 512,
+    "branch": "refined",
+    "asset": "AdaDepth_DiffNet_Cityscapes.zip",
+    "download_url": "https://github.com/xagao/AdaDepth/releases/download/v1.0.0/AdaDepth_DiffNet_Cityscapes.zip",
+    "metrics": {
+      "abs_rel": 0.088,
+      "sq_rel": 0.781,
+      "rmse": 5.317,
+      "rmse_log": 0.14,
+      "a1": 0.916,
+      "a2": 0.98,
+      "a3": 0.993
+    },
+    "metric_source": "archived evaluation log",
+    "files": {
+      "encoder_ref.pth": {
+        "bytes": 39013651,
+        "sha256": "39f973070db0122597037da11270fd4ebf257a817880ab1cb24c53435375c357"
+      },
+      "depth_ref.pth": {
+        "bytes": 5244237,
+        "sha256": "4f2b4411c228d0725501db63f90adbbf2919a0519c025150b533219e494f198d"
+      }
+    }
+  },
+  {
+    "name": "AdaDepth_Monodepth2_KITTI",
+    "dataset": "kitti",
+    "backbone": "monodepth2",
+    "model": null,
+    "height": 192,
+    "width": 640,
+    "branch": "refined",
+    "asset": "AdaDepth_Monodepth2_KITTI.zip",
+    "download_url": "https://github.com/xagao/AdaDepth/releases/download/v1.0.0/AdaDepth_Monodepth2_KITTI.zip",
+    "metrics": {
+      "abs_rel": 0.113,
+      "sq_rel": 0.852,
+      "rmse": 4.779,
+      "rmse_log": 0.189,
+      "a1": 0.879,
+      "a2": 0.961,
+      "a3": 0.982
+    },
+    "metric_source": "archived evaluation log",
+    "files": {
+      "encoder_ref.pth": {
+        "bytes": 46838461,
+        "sha256": "21c2c5652d099a229ad9c679b4146feccf3581089966a1f6b35f49cca2a0f065"
+      },
+      "depth_ref.pth": {
+        "bytes": 12611603,
+        "sha256": "c8063f8f6d2334c8a0313ecbb9e13f4ec351d603bf1402c2dcdf35ba332fc3d4"
+      }
+    }
+  },
+  {
+    "name": "AdaDepth_Monodepth2_Waymo",
+    "dataset": "waymo",
+    "backbone": "monodepth2",
+    "model": null,
+    "height": 320,
+    "width": 480,
+    "branch": "refined",
+    "asset": "AdaDepth_Monodepth2_Waymo.zip",
+    "download_url": "https://github.com/xagao/AdaDepth/releases/download/v1.0.0/AdaDepth_Monodepth2_Waymo.zip",
+    "metrics": {
+      "abs_rel": 0.13,
+      "sq_rel": 1.531,
+      "rmse": 6.403,
+      "rmse_log": 0.18,
+      "a1": 0.869,
+      "a2": 0.964,
+      "a3": 0.985
+    },
+    "metric_source": "archived evaluation log",
+    "files": {
+      "encoder_ref.pth": {
+        "bytes": 46838461,
+        "sha256": "0983ccd733736c2f281e69eecd0120e58bd22710bcadedb0378e38eeb8fcde4a"
+      },
+      "depth_ref.pth": {
+        "bytes": 12611603,
+        "sha256": "3b15a6532528e39e9fdaec2cbb7ae2868baaa7b75db330a9b51878ba93615ea8"
+      }
+    }
+  }
+]
