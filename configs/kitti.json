@@ -1,0 +1,33 @@
+{
+  "dataset": "kitti",
+  "data_path": null,
+  "train_split": "splits/kitti/eigen_zhou/train_files.txt",
+  "height": 192,
+  "width": 640,
+  "img_ext": ".png",
+  "batch_size": 4,
+  "num_workers": 4,
+  "num_epochs": 35,
+  "learning_rate": 8e-05,
+  "backbone": "litemono",
+  "model": "lite-mono-8m",
+  "seed": 42,
+  "median_init": 0.43587088562006293,
+  "output_dir": "runs/kitti",
+  "device": "cuda",
+  "gac_weight": 0.05,
+  "gac": {
+    "window_size": 9,
+    "contact_radius": 2,
+    "min_ground_pixels": 3,
+    "normal_y_threshold": 0.8,
+    "offset_aggregation": "median",
+    "reduction": "image_mean",
+    "smoothness_weight": 1.0,
+    "propagation_radius": 2,
+    "samples_per_anchor": 4,
+    "sampling": "random",
+    "chunk_size": 2048,
+    "eps": 1e-07
+  }
+}
