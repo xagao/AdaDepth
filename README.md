@@ -1,6 +1,4 @@
-<h1 align="center">AdaDepth</h1>
-<h3 align="center">Exploiting Inherent Scene Information for<br>Self-Supervised Depth Estimation in Dynamic Scenes</h3>
-<h3 align="center">AAAI 2026</h3>
+<p align="center"><img src="assets/poster-cover.png" width="100%" alt="AdaDepth — AAAI 2026 academic poster cover"></p>
 
 <p align="center">
 Xuanang Gao<sup>1</sup>, Xiongbin Wu<sup>1</sup>, Zhiwei Ning<sup>1</sup>, Runze Yang<sup>1,2</sup>,<br>
